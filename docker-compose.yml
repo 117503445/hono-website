@@ -1,0 +1,13 @@
+services:
+  hono-website-dev:
+    build:
+      context: ./
+      dockerfile: Dockerfile.dev
+    volumes:
+        - ./:/workspace
+        - hono-website-dev-vsc:/root/.vscode-server
+    stdin_open: true
+    tty: true
+
+volumes:
+  hono-website-dev-vsc:

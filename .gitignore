@@ -20,3 +20,5 @@ $RECYCLE.BIN/
 
 # IDE-specific settings
 .idea
+
+.pnpm-store
